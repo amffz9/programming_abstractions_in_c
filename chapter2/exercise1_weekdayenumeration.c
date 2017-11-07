@@ -1,3 +1,7 @@
+/*
+ * Page 98 in Programming Abstractions in C
+ * Exercise 1
+ */
 #include <stdio.h>
 
 typedef enum {
@@ -30,7 +34,7 @@ weekdayT PreviousDay(weekdayT day) {
 }
 
 int main(int argc, char const *argv[]) {
-
+//This main function is to test the functions specified in the book
     int last_input = 0;
     weekdayT currentDay = Sunday;
 
